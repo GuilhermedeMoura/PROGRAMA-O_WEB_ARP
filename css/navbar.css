@@ -4,8 +4,6 @@
 //Dev: Guilherme de Moura Santos -2110362
 //DATA: 02/03/2023
   */
-
-* {
-    margin: 0;
-    padding: 0;
+.navbar-brand {
+    margin-left: 1vw;
 }

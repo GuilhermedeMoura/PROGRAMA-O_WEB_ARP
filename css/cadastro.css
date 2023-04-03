@@ -1,0 +1,71 @@
+/* 
+//Curso de Engenharia de Software - UniEVANGÉLICA
+//Disciplina de Programação Web
+//Dev: Guilherme de Moura Santos -2110362
+//DATA: 02/03/2023
+  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Bodyresposinve {
+    text-align: center;
+}
+
+.Bodyresposinve h1 {
+    font-weight: 900;
+    color: #353375;
+}
+
+.Bodyresposinve form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1rem, 1.2vw, 2rem);
+    min-width: 50vw;
+
+}
+
+.Bodyresposinve div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bodyresposinve div label {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0.25vw;
+    color: #353375;
+
+}
+
+.Bodyresposinve input {
+    height: 7vh;
+    min-width: 50vw;
+    padding-left: 0.5vw;
+    border-radius: 0.5vw;
+    border: solid 3px #353375;
+}
+
+.submit {
+    min-height: 10vh;
+    border: none;
+    background-color: #353375;
+    color: white;
+    font-weight: 900;
+    font-size: clamp(1rem, 2vw, 2rem);
+
+}
+
+.submit:hover {
+    min-height: 10vh;
+    border: none;
+    background-color: #130dc9;
+    color: white;
+    font-weight: 900;
+    font-size: clamp(1rem, 2vw, 2rem);
+
+}
